@@ -14,10 +14,6 @@ export default function RootLayout({
         <Link href="/">
           <h1 className="text-2xl text-white font-bold mt-4">xBlog</h1>
         </Link>
-
-        <Link href="/">
-          <button className="btn btn-info rounded-xl normal-case mt-2">⬅ Back</button>
-        </Link>
       </div>
     </header>
   );

@@ -2,6 +2,7 @@ import fs from "fs";
 import Markdown from "markdown-to-jsx";
 import matter from "gray-matter";
 import getPostMetadata from "../../../components/getPostMetadata";
+import Link from "next/link";
 
 const getPostContent = (slug: string) => {
   const folder = "posts/";
@@ -31,6 +32,10 @@ const PostPage = (props: any) => {
       <article className="prose">
         <Markdown>{post.content}</Markdown>
       </article>
+
+      <Link href="/">
+        <button className="btn btn-info rounded-xl normal-case mt-2">⬅ Back</button>
+      </Link>
     </div>
   );
 };
