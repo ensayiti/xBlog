@@ -1,7 +1,7 @@
 ---
-title: "API (Axios)"
-subtitle: "GET, POST, DELETE method with Axios."
-date: "01-03-2023"
+title: "Spotify API"
+subtitle: "Consume API to get Playlist and Song details by account."
+date: "15-02-2023"
 ---
 
 # Consume Spotify API
